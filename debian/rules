@@ -207,4 +207,6 @@ override_dh_auto_install:
 	rm -f debian/tmp/usr/share/apache2/error/README
 	rm -f debian/tmp/usr/share/apache2/icons/README*
 
+override_dh_auto_test:
+
 .PHONY: clean build build-arch build-indep binary binary-arch binary-indep

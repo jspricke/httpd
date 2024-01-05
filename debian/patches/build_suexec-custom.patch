@@ -4,7 +4,7 @@ Author: Stefan Fritsch <sf@debian.org>
 Last-Update: 2012-02-25
 --- a/Makefile.in
 +++ b/Makefile.in
-@@ -293,23 +293,26 @@
+@@ -304,23 +304,26 @@ install-man:
  install-suexec: install-suexec-$(INSTALL_SUEXEC)
  
  install-suexec-binary:
@@ -48,7 +48,7 @@ Last-Update: 2012-02-25
 -CLEAN_TARGETS = suexec
 +CLEAN_TARGETS = suexec-pristine suexec-custom
  
- bin_PROGRAMS = htpasswd htdigest htdbm ab logresolve httxt2dbm
+ bin_PROGRAMS = htpasswd htdigest htdbm firehose ab logresolve httxt2dbm
  sbin_PROGRAMS = htcacheclean rotatelogs $(NONPORTABLE_SUPPORT)
 @@ -72,9 +72,13 @@
  checkgid: $(checkgid_OBJECTS)
