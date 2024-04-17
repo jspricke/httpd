@@ -1,0 +1,79 @@
+Format: 1.8
+Date: Wed, 18 Oct 2023 21:53:04 +0200
+Source: apache2
+Binary: apache2 apache2-bin apache2-bin-dbgsym apache2-data apache2-dev apache2-doc apache2-ssl-dev apache2-suexec-custom apache2-suexec-custom-dbgsym apache2-suexec-pristine apache2-suexec-pristine-dbgsym apache2-utils apache2-utils-dbgsym libapache2-mod-md libapache2-mod-proxy-uwsgi
+Architecture: amd64 all
+Version: 2.5.0.ech.135.gf0f92773d9-20240417.135809347531231
+Distribution: testing
+Urgency: medium
+Maintainer: Debian Apache Maintainers <debian-apache@lists.debian.org>
+Changed-By: Jochen Sprickerhof <jspricke@debian.org>
+Description:
+ apache2    - Apache HTTP Server
+ apache2-bin - Apache HTTP Server (modules and other binary files)
+ apache2-data - Apache HTTP Server (common files)
+ apache2-dev - Apache HTTP Server (development headers)
+ apache2-doc - Apache HTTP Server (on-site documentation)
+ apache2-ssl-dev - Apache HTTP Server (mod_ssl development headers)
+ apache2-suexec-custom - Apache HTTP Server configurable suexec program for mod_suexec
+ apache2-suexec-pristine - Apache HTTP Server standard suexec program for mod_suexec
+ apache2-utils - Apache HTTP Server (utility programs for web servers)
+ libapache2-mod-md - transitional package
+ libapache2-mod-proxy-uwsgi - transitional package
+Changes:
+ apache2 (2.5.0.ech.135.gf0f92773d9-20240417.135809347531231) UNRELEASED; urgency=medium
+ .
+   ** SNAPSHOT build @c70f2ec340 **
+ .
+   * Add DEfO patches
+Checksums-Sha1:
+ c8f6c8176ce17df639a325a16803889301dcd1c9 4134148 apache2-bin-dbgsym_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ b0a8c55a4bd37e7dbfb19a5cdee857c743647f6a 1377800 apache2-bin_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ fce907d4cc40cad8c76aaf9eae83258230a7e02c 165312 apache2-data_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_all.deb
+ 5cab3693cd8721e4f6fcb9c78d48e7278a9ae3be 246772 apache2-dev_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 6f2c28bfb6af268ebd48cef419136dc90d0f38b1 4408500 apache2-doc_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_all.deb
+ 9976bc55bff659f73733405bfbd91d30b85d760a 3168 apache2-ssl-dev_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 20cb66e73ae33ab579d328e998d28c92f078c4de 12624 apache2-suexec-custom-dbgsym_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 147c72cd7b60337a8f632a18f88d4e94514d95fd 54992 apache2-suexec-custom_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 533c7eae72705854d541c9d54d27b46311be0d65 11324 apache2-suexec-pristine-dbgsym_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 74b62a3c190787d44af9793be8d0b31e942babf9 53488 apache2-suexec-pristine_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ fefbbfb5213f1b6bbd021364e070ce00d34d4bac 127784 apache2-utils-dbgsym_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ e9b65210f92abd048ea2fd7aa101d91f73f39dfd 126276 apache2-utils_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ e9bc26da26c897efb2740b220cb4b250bd8b6efc 13355 apache2_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.buildinfo
+ 5d3d32223d003193742041d616f303223f3679bb 127440 apache2_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 482b8232d3dac12820918413f21fcdba6c38b288 984 libapache2-mod-md_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 7e723c67ecbae1763f4ee1555ec5cd5d79897454 1164 libapache2-mod-proxy-uwsgi_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+Checksums-Sha256:
+ 79eea3ea6836f50c67341c1b1bc19a283d363346323f7815e0b6d198eb5ac155 4134148 apache2-bin-dbgsym_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ b1e7468119b90ad18ee6810022d7272064666b00cef5141c7949433ae3ab414a 1377800 apache2-bin_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 42a46cd18e98cd1432d9b3bc544144cf0e6338ccaa14c09ff7f9e4a7a95c3dd1 165312 apache2-data_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_all.deb
+ 4eebd03a6941a71596ee829dc27da35abd30f3696a69ffcb20ee83518e5e809d 246772 apache2-dev_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ e2c80f73195d1e6f2f31e936bede52080cef33b79cf02a430e90dccbe3d6246e 4408500 apache2-doc_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_all.deb
+ 74c888b2d351536a869b119d5770880abbdddcfa5b2db1a9187fe57ea9d5485a 3168 apache2-ssl-dev_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ bf5cefce404fd310cc62759d30dc0864a204a69966e0f40951bb590f06770671 12624 apache2-suexec-custom-dbgsym_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ c6617d89bdb305759f5c6e3e2b128299e6e98eb1e26fed0d2199ca7cd5128dad 54992 apache2-suexec-custom_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 86a655f119a2cba4b2da38a3f8fed2921246704572de22a8705b6f6f0a060724 11324 apache2-suexec-pristine-dbgsym_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ c0e0571e2277bfb0d8acd4653ca1cf63b9bfb237210e84fbc9f6b8d92b6dd6b7 53488 apache2-suexec-pristine_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 254c23fa8c6d19aab866cd49cc52e341c0f182626a533611c2dc5c7589d4d7f4 127784 apache2-utils-dbgsym_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 81c465490e54c41f6f1d34c7f86595bf79a67a919125dad2696692590ee85817 126276 apache2-utils_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 81d773479bec1ab35a94947f2a142b87a97bd78a66b370153a1bb9fc59684381 13355 apache2_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.buildinfo
+ d6d17394bc5f8d10c2700f7fdeefb26683306edf30476ed6bfbf6098c1a74d94 127440 apache2_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ fe8992fe33e7004c359cb51f69014628c3b7227b6fb08f4a6a65a1bbe95e3074 984 libapache2-mod-md_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ c191d24a7c6a0a75ce150572773b262e847d6d1749e0124850e75830ad79f385 1164 libapache2-mod-proxy-uwsgi_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+Files:
+ 79e5f286bd1bddf024ccf23225907c6e 4134148 debug optional apache2-bin-dbgsym_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 6faf2beb4cd21148804786574cfadce8 1377800 httpd optional apache2-bin_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 43dfd60f909c7bec37e4e9ece8d58b62 165312 httpd optional apache2-data_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_all.deb
+ c81963db0428fd4afd36e1f3c4b20bfd 246772 httpd optional apache2-dev_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 185ecb2b0af5a6e74aec2ba99e80cd86 4408500 doc optional apache2-doc_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_all.deb
+ 42af9ac38427edb83caaf03828ad885f 3168 httpd optional apache2-ssl-dev_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 334f8642495438a451e93bdb05373188 12624 debug optional apache2-suexec-custom-dbgsym_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 1f9abc2240c306686099a87807ca710d 54992 httpd optional apache2-suexec-custom_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 25a22772707156d5876db7466119f986 11324 debug optional apache2-suexec-pristine-dbgsym_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 0b3d4eb8f260d10eb926c5a3a2fe4adf 53488 httpd optional apache2-suexec-pristine_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 2cd270134d17a82f86926b6c171143ac 127784 debug optional apache2-utils-dbgsym_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 888056f4df3c3a48c81d570811da4a9c 126276 httpd optional apache2-utils_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 3c11c90bc1b2362bb79931aa4f33828e 13355 httpd optional apache2_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.buildinfo
+ 7bd8126dd139c9bdc77d6e36f45a3e0b 127440 httpd optional apache2_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 6907030972e0e1b3ee9526a6c9715172 984 oldlibs optional libapache2-mod-md_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
+ 479a2e20c924c63d0216b5131c97124a 1164 oldlibs optional libapache2-mod-proxy-uwsgi_2.5.0.ech.135.gf0f92773d9-20240417.135809347531231_amd64.deb
