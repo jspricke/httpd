@@ -1,3 +1,11 @@
+apache2 (2.4.62-1.1~1.gbpc70f2ec340) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @c70f2ec340 **
+
+  * Add DEfO patches
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Wed, 18 Oct 2023 21:53:04 +0200
+
 apache2 (2.4.62-1) unstable; urgency=medium
 
   * New upstream version 2.4.62 (Closes: CVE-2024-40725, CVE-2024-40898)
